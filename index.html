@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio de Les</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="header-izquierda">
+            <img src="imagenes/foto.jpg" alt="Foto de Les" class="foto">
+            <h1>Les - Analista de Sistemas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#redes">Redes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Hola! Me llamo Les trabajando hace un par de años como analista de sistemas. Actualmente estoy cursando la Tecnicatura en Programación en la UTN. Me apasiona seguir aprendiendo y trabajar en proyectos que desafíen mis habilidades.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <table>
+            <tr>
+                <td><img src="imagenes/html.png" alt="HTML" title="HTML"></td>
+                <td><img src="imagenes/css.png" alt="CSS" title="CSS"></td>
+                <td><img src="imagenes/JavaScript-logo.png" alt="JavaScript" title="JavaScript"></td>
+                <td><img src="imagenes/.net.png" alt=".Net" title=".Net"></td>
+            </tr>
+            <tr>
+                <td><img src="imagenes/c.png" alt="C#" title="C#"></td>
+                <td><img src="imagenes/c++.png" alt="C++" title="C++"></td>
+                <td><img src="imagenes/linux.jfif" alt="Linux" title="Linux"></td>
+                <td><img src="imagenes/vmware.jfif" alt="VMware" title="VMware"></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="redes">
+        <h2>Redes</h2>
+        <div class="redes">
+            <a href="https://www.instagram.com/lesyparraguirre/" target="_blank">
+                <img src="imagenes/Instagram.jfif" alt="Instagram" title="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/les-yparraguirre/" target="_blank">
+                <img src="imagenes/linkedin.png" alt="LinkedIn" title="LinkedIn">
+            </a>
+            <a href="https://github.com/LeslieChao1" target="_blank">
+                <img src="imagenes/github.png" alt="GitHub" title="GitHub">
+            </a>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Podes contactarme a través del siguiente formulario:</p>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p> By Les Yparraguirre</p>
+    </footer>
+</body>
+</html>
